@@ -4,14 +4,14 @@ function reset() {
   var kittens = ["Milo", "Otis", "Garfield"];
 }
 
-reset()
+reset();
 
 function destructivelyAppendKitten(name) {
   kittens.push(name);
   return kittens;
 }
 
-reset()
+reset();
 
 function destructivelyPrependKitten(name) {
   kittens.pop(name);
