@@ -1,17 +1,13 @@
 const app = "I don't do much."
 
-function reset() {
-  var kittens = ["Milo", "Otis", "Garfield"];
-}
-
-reset();
+var kittens = ["Milo", "Otis", "Garfield"];
 
 function destructivelyAppendKitten(name) {
   kittens.push(name);
   return kittens;
 }
 
-reset();
+var kittens = ["Milo", "Otis", "Garfield"];
 
 function destructivelyPrependKitten(name) {
   kittens.pop(name);
